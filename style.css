@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #2c2c2c;
+    height: 75px;
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+nav > div {
+    text-align: center;
+}
+
+nav > div > ul {
+    display: inline-block;
+    padding-top: 25px;
+}
+
+nav > div > ul > li {
+    display: inline-block;
+    color: #ffffff;
+    margin-right: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container {
+    margin: 5% 10% 5% 10%;
+}
+
+.greeting {
+    font-family: 'Poppins', sans-serif;
+}
+
+.greeting > h1 {
+    font-size: 50px;
+}
+
+.greeting > h3 {
+    font-size: 25px;
+    font-weight: 400;
+    width: 75%;
+}
+
+.projects {
+    margin-top: 7%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.projects > h1 {
+    font-weight: 800;
+}
+
+.projectWrapper {
+    display: grid;
+    grid-template-columns: 66% 33%;
+    margin-top: 3%;
+}
+
+.projectWrapper > img {
+    width: 100%;
+    max-width: 750px;
+}
+
+footer {
+    background-color: #2c2c2c;
+    height: 75px;
+}
+
+footer > ul {
+    text-align: center;
+}
+
+footer > ul > li {
+    display: inline-block;
+    padding-top: 25px;
+    color: #ffffff;
+    margin-right: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
